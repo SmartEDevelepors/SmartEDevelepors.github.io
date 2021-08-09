@@ -125,6 +125,52 @@ body {
   text-decoration: none;
 }
 
+.app .apple img {
+  width: 20px;
+  height: 20px;
+  padding-top: 6px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #3a3a3a;
+  font-weight: 300;
+  text-align: center;
+}
+
+.app:hover .apple img {
+  webkit-transform: scale(1.1);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.1);
+  /* Firefox */
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -o-transform: scale(1.1);
+  /* Opera */
+  transform: scale(1.1);
+}
+
+.app .android img {
+  width: 20px;
+  height: 20px;
+  padding-top: 6px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: #3a3a3a;
+  font-weight: 300;
+  text-align: center;
+}
+
+.app:hover .android img {
+  webkit-transform: scale(1.1);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.1);
+  /* Firefox */
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -o-transform: scale(1.1);
+  /* Opera */
+  transform: scale(1.1);
+}
+
 .opensource {
   margin: 50px auto;
   max-width: 500px;
